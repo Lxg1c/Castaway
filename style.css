@@ -1,0 +1,499 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+	border: none;
+	text-decoration: none;
+	list-style: none;
+}
+
+body {
+	background-color: #191919;
+	color: #ffffff;
+	font-family: 'DM Sans', sans-serif;
+}
+
+html,
+body {
+	width: 100%;
+	overflow-x: hidden;
+}
+
+header {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	padding: 40px 0;
+}
+
+.container {
+	max-width: 1330px;
+	padding: 0 20px;
+	margin: 0 auto;
+}
+
+.header-info {
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: space-between;
+}
+
+#menu-list {
+	display: flex;
+	gap: 48px;
+}
+
+#menu-list li a {
+	font-size: 18px;
+	cursor: pointer;
+}
+
+#hero {
+	margin-bottom: 64px;
+}
+
+.hero-container {
+	display: flex;
+	align-items: flex-end;
+}
+
+#img {
+	max-width: 100%;
+	border-radius: 32px;
+}
+
+.hero-tittle {
+	width: 100%;
+	padding-left: 60px;
+	padding-bottom: 150px;
+}
+
+#decoration {
+	position: absolute;
+	top: -26px;
+	left: -26px;
+}
+
+.tittle h1 {
+	font-size: 70px;
+	letter-spacing: 3.2px;
+	line-height: 88px;
+	margin-bottom: 48px;
+	font-weight: 400;
+}
+
+.tittle h1 #bold-txt {
+	font-weight: 700;
+}
+
+#social-list {
+	display: flex;
+}
+
+#social-list {
+	display: flex;
+	gap: 30px;
+}
+
+#social-list li i {
+	display: block;
+	font-size: 32px;
+	cursor: pointer;
+}
+
+#line_under_txt {
+	position: relative;
+	display: inline-block;
+}
+
+#line_under_txt::after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 11px;
+	bottom: 0;
+	right: 0;
+	background-image: url(images/line.svg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.social-title {
+	margin: 32px 0;
+}
+
+#episode-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 70px;
+}
+
+.episode-txt {
+	font-size: 80px;
+	font-weight: 400;
+	line-height: 70.4px;
+	margin-bottom: 28px;
+}
+
+.showAllEpisodesBtn {
+	padding: 0 30px;
+	height: 51px;
+	border-radius: 6px;
+	background-color: #118da8;
+	color: #ffffff;
+}
+
+.episode-content {
+	background-color: #000;
+	border-radius: 32px;
+	padding: 40px;
+	display: flex;
+	margin-bottom: 60px;
+}
+
+.episode-img {
+	margin-right: 50px;
+	width: 90%;
+}
+
+.theme {
+	display: inline-block;
+	padding: 0 16px;
+	height: 27px;
+	background-color: #191919;
+	text-align: center;
+	border-radius: 6px;
+	font-size: 18px;
+	margin-bottom: 50px;
+}
+
+.episode-number {
+	height: 27px;
+	color: #118da8;
+	font-size: 17px;
+	margin-bottom: 18px;
+	display: block;
+}
+
+.sub-txt {
+	color: #ffffffb2;
+	font-size: 22px;
+	margin-bottom: 40px;
+}
+
+.author {
+	margin: 120px 0;
+}
+
+.author-container {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.author-information {
+	width: 90%;
+}
+
+.circle {
+	position: relative;
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	background-color: #118da8;
+}
+
+#arrow {
+	position: absolute;
+	left: 25px;
+	top: 40px;
+}
+
+.author-img {
+	width: 90%;
+}
+
+.mail {
+	background-color: #000;
+	border-radius: 32px;
+	padding: 50px;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 120px;
+}
+
+.mail-fields {
+	display: flex;
+	flex-direction: column;
+	width: 90%;
+	gap: 24px;
+}
+
+.email-txt {
+	width: 90%;
+	position: relative;
+}
+
+.mail-fields .input-fields {
+	background-color: #191919;
+	font-size: 15px;
+	padding: 32px;
+	border-radius: 8px;
+}
+
+.cards_container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	gap: 12px;
+	margin-bottom: 120px;
+}
+
+.card {
+	border-radius: 32px;
+	background-color: #000;
+	padding: 50px;
+}
+
+.comm {
+	font-weight: 400;
+	font-size: 36px;
+	margin-bottom: 18px;
+}
+
+.stars ul {
+	display: flex;
+	margin-bottom: 18px;
+}
+
+.stars li i {
+	color: yellow;
+	font-size: 18px;
+}
+
+.footer-content {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 60px;
+}
+
+.footer-social ul {
+	display: flex;
+	font-size: 24px;
+	gap: 12px;
+}
+
+.center {
+	display: flex;
+	gap: 128px;
+}
+
+a {
+	color: #ffffff;
+}
+
+.right-txt,
+.left-txt {
+	line-height: 40px;
+}
+
+.burger {
+	position: relative;
+	border: none;
+	background: transparent;
+	width: 40px;
+	height: 26px;
+}
+.burger::before,
+.burger::after {
+	content: '';
+	left: 0;
+	position: absolute;
+	display: none;
+	width: 100%;
+	height: 4px;
+	border-radius: 10px;
+	background: #fff;
+}
+.burger::before {
+	top: 0;
+	box-shadow: 0 11px 0 #fff;
+}
+.burger::after {
+	bottom: 0;
+}
+.menu {
+	display: flex;
+}
+
+.hero-img {
+	position: relative;
+}
+
+#linesDown {
+	position: relative;
+	left: -85px;
+	bottom: -85px;
+}
+
+@media (max-width: 992px) {
+	.tittle h1 {
+		font-size: 40px;
+		line-height: 50px;
+	}
+
+	.cards_container {
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(3, 1fr);
+	}
+
+	.comm {
+		font-size: 30px;
+	}
+
+	.sub-txt {
+		font-size: 18px;
+	}
+
+	.card {
+		padding: 25px;
+	}
+
+	.episode-txt {
+		font-size: 60px;
+	}
+}
+
+@media (max-width: 790px) {
+	.comm {
+		font-size: 24px;
+	}
+
+	.sub-txt {
+		font-size: 30px;
+		margin-bottom: 15px;
+	}
+
+	.episode-txt {
+		font-size: 50px;
+	}
+
+	.mail {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.card {
+		padding: 15px;
+	}
+
+	.episode-content {
+		display: block;
+	}
+
+	.hero-container {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.hero-tittle {
+		padding: 0px;
+	}
+
+	.episode-img {
+		margin: 0px;
+	}
+
+	.footer-content {
+		flex-direction: column;
+		align-items: center;
+		gap: 12 px;
+	}
+
+	.author-container {
+		flex-direction: column;
+	}
+
+	.author-img {
+		order: 1;
+	}
+
+	.author-information {
+		order: 2;
+		margin-top: 24px;
+	}
+
+	.center {
+		margin: 24px 0;
+	}
+
+	#menu-list {
+		display: none;
+	}
+
+	.burger::before,
+	.burger::after {
+		display: block;
+	}
+	#linesDown {
+		bottom: -350px;
+	}
+}
+
+@media (max-width: 600px) {
+	.tittle h1 {
+		font-size: 30px;
+	}
+
+	#episode-header {
+		flex-direction: column;
+	}
+
+	.episode-txt {
+		font-size: 35px;
+	}
+
+	.theme {
+		margin: 20px 0;
+	}
+}
+
+@media (max-width: 375px) {
+	.episode-txt {
+		font-size: 30px;
+		line-height: 30px;
+	}
+
+	.sub-txt {
+		font-size: 16px;
+	}
+
+	.cards_container {
+		grid-template-columns: repeat(1, 1fr);
+		grid-template-rows: repeat(6, 1fr);
+	}
+
+	.mail-fields .input-fields {
+		padding: 16px;
+	}
+
+	.circle {
+		width: 60px;
+		height: 60px;
+	}
+
+	#arrow {
+		width: 30px;
+		left: 16px;
+		top: 25px;
+	}
+
+	#linesDown {
+		bottom: -300px;
+	}
+}

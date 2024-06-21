@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Castaway</title>
+		<link rel="stylesheet" href="style.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css"
+		/>
+	</head>
+	<body>
+		<header>
+			<div class="container header-info ">
+				<div class="logo">
+						<h1>Castaway</h>
+				</div>
+
+				<div class="menu">
+					<ul id="menu-list">
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Episodes</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+					
+					<button class="burger"></button>
+				</div>
+			</div>
+		</header>
+
+		<section id="hero">
+			<div class="container hero-container">
+				<div class="hero-img">
+					<img id="decoration" src="images/lines.svg" alt="lines" aria-hidden="true">
+					<img id="img" src="images/producer-photo.svg" alt="Human listening music">
+				</div>
+				
+				<div class="hero-tittle">
+					<div class="tittle">
+						<h1>Take your podcast to the <span id="line_under_txt">next</span> <span id="bold-txt">level</span></h1>
+					</div>
+
+				<div class="socials">
+					<div class="social-title">
+						<a>Listed on</a>
+					</div>
+					
+
+					<div class="social">
+						<ul id="social-list">
+							<li><i style="background-color: #191919; color: green;" class="ri-spotify-fill" aria-label="Listen on Spotify"></i></li>
+							<li><i style="background-color: red; border-radius: 50%;" class="ri-brain-line" aria-label="Listen on Trademark"></i></li>
+							<li><i style="background-color: rgb(255, 119, 0); border-radius: 50%;" class="ri-soundcloud-fill" aria-label="Listen on SoundCloud"></i></li>
+							<li><i style="background-color:#e74ef8; border-radius: 50%;"  class="ri-apple-line" aria-label="Listen on Apple Podcasts"></i></li>
+							<li><i style="color: #fc7e0f; background-color: #ffffff; border-radius: 50%;"class="ri-base-station-line" aria-label="Listen on Station"></i></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="episodes">
+			<div class="container episodes-container">
+				<div id="episode-header">
+					<h1 class="episode-txt">Latest episodes</h1>
+					<button class="showAllEpisodesBtn">View all episodes</button>
+				</div>
+
+				<div class="episode-content">
+					<img class="episode-img" src="images/dj console.svg" alt="audio-system">
+
+					<div class="episode-info">
+						<p class="theme">Gear</p>
+						<p class="episode-number">Episode 3</p>
+						<p class="episode-txt">Should you get outboard audio gear?</p>
+						<p class="sub-txt">Is hardware really worth it when it comes to podcasting? The answer is...it depends. Here’s our reasons on why you might want to consider picking something up.</p>
+						<button class="showAllEpisodesBtn">View Episode Details</button>
+					</div>
+				</div>
+
+				<div class="episode-content">
+					<img class="episode-img" src="images/microphone.svg" alt="audio-system">
+
+					<div class="episode-info">
+						<p class="theme">Gear</p>
+						<p class="episode-number">Episode 1</p>
+						<p class="episode-txt">Mic tricks to take you to the next level</p>
+						<p class="sub-txt">Stop rolling with those default settings on your mic. These small tweaks will take you from sounding good to great.</p>
+						<button class="showAllEpisodesBtn">View Episode Details</button>
+					</div>
+				</div>
+
+				<div class="episode-content">
+					<img class="episode-img" src="images/black man.svg" alt="audio-system">
+
+					<div class="episode-info">
+						<p class="theme">Tips & Tricks</p>
+						<p class="episode-number">Episode 2</p>
+						<p class="episode-txt">The best microphone under $200</p>
+						<p class="sub-txt">With so many microphones on the market, how are you supposed to know what’s the best? Take a look at our top picks.</p>
+						<button class="showAllEpisodesBtn">View Episode Details</button>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="author">
+			<div class="container author-container">
+				<div class="author-information">
+					<div class="circle">
+						<button><img id="arrow" src="images/arrow.png"></button>
+					</div>
+					<p class="episode-number" style="margin: 18px 0;">Meet your host</p>
+					<p class="episode-txt">Jacob Paulaner</p>
+					<p class="sub-txt">Jacob has a background in audio engineering, and has been podcasting since the early days.</p>
+					<p class="sub-txt">He’s here to help you level up your game by sharing everything he’s learned along the way.</p>
+				</div>
+
+				<img id="author-img" src="images/author.svg" alt="man is smiling">
+			</div>
+		</section>
+
+		<section class="email-subscribe">
+			<div class="container email-container">
+				<div class="mail">
+					<div class="email-txt">
+						<p class="episode-number">Email newsletter</p>
+						<p class="episode-txt">Subscribe for updates</p>
+						<img  aria-hidden="true"  id="linesDown" src="images/lines down.svg">
+					</div>
+
+					<div class="mail-fields">
+						<input class="input-fields" type="text" placeholder="Name">
+						<input class="input-fields" type="email" placeholder="Email">
+						<input class="showAllEpisodesBtn" type="button" value="Submit">
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="cards">
+			<div class="container cards_container">
+				
+				<div class="card">	
+					<div class="stars">
+						<ul>
+							<li><i class="ri-star-s-fill"></i></li>
+							<li><i class="ri-star-s-fill"></i></li>
+							<li><i class="ri-star-s-fill"></i></li>
+							<li><i class="ri-star-s-fill"></i></li>
+							<li><i class="ri-star-s-fill"></i></li>
+						</ul>
+					</div>
+					<p class="comm">I can't recommend this podcast enough</p>
+					<p class="sub-txt">Betty Lacey</p>
+				</div>
+				
+				<div class="card">
+					<div class="stars">
+						<ul>
+							<li><i class="ri-star-s-fill"></i></li>
+							<li><i class="ri-star-s-fill"></i></li>
+							<li><i class="ri-star-s-fill"></i></li>
+							<li><i class="ri-star-s-fill"></i></li>
+							<li><i class="ri-star-s-fill"></i></li>
+						</ul>
+					</div>
+					<p class="comm">Jacob is the best in business</p>
+					<p class="sub-txt">Adam Driver</p>
+				</div>
+				
+				<div class="card">
+					<div class="stars">
+						<ul>
+							<li><i class="ri-star-s-fill"></i></li>
+							<li><i class="ri-star-s-fill"></i></li>
+							<li><i class="ri-star-s-fill"></i></li>
+							<li><i class="ri-star-s-fill"></i></li>
+							<li><i class="ri-star-s-fill"></i></li>
+						</ul>
+					</div>
+					<p class="comm">A wealth of audio knowledge</p>
+					<p class="sub-txt">Marcus Brown</p>
+				</div>
+				
+				<div class="card">
+					<div class="stars">
+						<ul>
+							<li><i class="ri-star-s-fill"></i></li>
+							<li><i class="ri-star-s-fill"></i></li>
+							<li><i class="ri-star-s-fill"></i></li>
+							<li><i class="ri-star-s-fill"></i></li>
+							<li><i class="ri-star-s-fill"></i></li>
+						</ul>
+					</div>
+					<p class="comm">Every episode is a gem!</p>
+					<p class="sub-txt">Jessica Knowl</p>
+				</div>
+				
+				<div class="card">
+					<div class="stars">
+						<ul>
+							<li><i class="ri-star-s-fill"></i></li>
+							<li><i class="ri-star-s-fill"></i></li>
+							<li><i class="ri-star-s-fill"></i></li>
+							<li><i class="ri-star-s-fill"></i></li>
+							<li><i class="ri-star-s-fill"></i></li>
+						</ul>
+					</div>
+					<p class="comm">Whoa Whoa, let me take some notes!</p>
+					<p class="sub-txt">Scott Adams</p>
+				</div>
+
+				<div class="card">			
+					<div class="stars">
+						<ul>
+							<li><i class="ri-star-s-fill"></i></li>
+							<li><i class="ri-star-s-fill"></i></li>
+							<li><i class="ri-star-s-fill"></i></li>
+							<li><i class="ri-star-s-fill"></i></li>
+							<li><i class="ri-star-s-fill"></i></li>
+						</ul>
+					</div>
+					<p class="comm">I've upped my game considerably since i started listening</p>
+					<p class="sub-txt">Steven Blast</p>
+				</div>	
+			</div>
+		</section>
+		
+		<footer>
+			<div class="container footer-container">
+				<div class="footer-content">
+					<div class="left">
+						<h1>Castaway</h1>
+						<div class="footer-social">
+							<ul>
+								<li><i class="ri-instagram-line"></i></li>
+								<li><i class="ri-twitter-line"></i></li>
+								<li><i style="color: #fff; background-color: #191919;" class="ri-facebook-circle-line"></i></li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="center">
+						<div class="left-txt">
+							<p>Home</p>
+							<p>About</p>
+							<p>Episodes</p>
+							<p>Contact</p>
+							<p>Licenses</p>
+						</div>
+
+						<div class="right-txt">
+							<p>Style Guide</p>
+							<p>Instructions</p>
+							<p>Changelog</p>
+							<p>Credit</p>
+							<p>Powered by WebFlow</p>
+						</div>
+					</div>
+
+					<div class="right">
+						<ul id="social-list">
+								<li><i style="background-color: #191919; color: green;" class="ri-spotify-fill" aria-label="Listen on Spotify"></i></li>
+								<li><i style="background-color: red; border-radius: 50%;" class="ri-brain-line" aria-label="Listen on Trademark"></i></l>
+								<li><i style="background-color: rgb(255, 119, 0); border-radius: 50%;" class="ri-soundcloud-fill" aria-label="Listen on SoundCloud"></i></li>
+								<li><i style="background-color:#e74ef8; border-radius: 50%;"  class="ri-apple-line" aria-label="Listen on Apple Podcasts"></i></li>
+								<li><i style="color: #fc7e0f; background-color: #ffffff; border-radius: 50%;"class="ri-base-station-line" aria-label="Listen on Station"></i></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
